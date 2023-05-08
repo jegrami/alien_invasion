@@ -9,7 +9,7 @@ class Ship:
         self.settings = ai_game.settings
 
         # load the ship's image and get rect
-        self.image = pygame.image.load("C:\\Users\\USER\.vscode\\py_crash_course\\alien_invasion\\images\\ship.bmp")
+        self.image = pygame.image.load('images\\ship.bmp')
         self.rect = self.image.get_rect()
 
         # start each new ship at the bottom center of the screen
